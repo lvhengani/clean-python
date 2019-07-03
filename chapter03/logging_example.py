@@ -1,5 +1,5 @@
 # Import logging module
-Import logging
+import logging
 
 logger = logging.getLogger(__name__)          # Create a custom logger
 handler = logging.StreamHandler               # Using stream handler
